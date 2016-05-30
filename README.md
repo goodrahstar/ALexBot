@@ -1,5 +1,7 @@
 # ALexBot
 Alexa on RaspberryPi
+###Purpose
+I have integrated the Amazon Alexa with RaspberryPi 2 and also have created a software button to invoke the voice command.
 
 ###Requirements
 You will need:
@@ -16,3 +18,7 @@ Next you need to obtain a set of credentials from Amazon to use the Alexa Voice 
 - Execute speak.py in separate console, It will record your voice for 7 seconds and will send it to the Alexa.
 
 Now wait for the response from alexa and invoke speak.py as software button.
+
+###TODO
+- Automate the voice recording duration.
+- Integrate with Face Detection or Voice detection.
